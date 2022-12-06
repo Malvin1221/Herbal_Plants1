@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewTanaman.AdminTanamanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/imgvTanaman"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.122"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            app:srcCompat="@drawable/no_image"
+            android:layout_marginBottom="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarTanaman"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:indeterminateBehavior="cycle" />
+
+        <EditText
+            android:id="@+id/edt_namaTanaman"
+            android:layout_width="359dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Nama Tanama Herbal"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <EditText
+            android:id="@+id/edt_jenisTanaman"
+            android:layout_width="359dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Jenis Tanaman Herbal"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.595" />
+
+        <EditText
+            android:id="@+id/edt_deskTanaman"
+            android:layout_width="359dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Deskripsi Tanaman Herbal"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.858" />
+
+        <Button
+            android:id="@+id/btn_cariTanaman"
+            android:layout_width="220dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="Plih Gambar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.223" />
+
+        <Button
+            android:id="@+id/btn_uploadTanaman"
+            android:layout_width="220dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="Upload Data"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.973" />
+
+    </LinearLayout>
+</RelativeLayout>

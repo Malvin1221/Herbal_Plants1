@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "623133337608",
+    "project_id": "herbal-plants-cdda6",
+    "storage_bucket": "herbal-plants-cdda6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623133337608:android:3f466967b082e2fb70c9bd",
+        "android_client_info": {
+          "package_name": "com.mfr.herbalplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623133337608-iaheq5be98kfb3r2fnqsivt19b4enq0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mfr.herbalplants",
+            "certificate_hash": "d6932d0151627c477dd8a6fd4d99788096f632cf"
+          }
+        },
+        {
+          "client_id": "623133337608-k0r69vt0e3lu5j5blhmqldtjgai9rvk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6m9ooqGRGi_ipmyDvUoV1cQwhmdRasxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623133337608-k0r69vt0e3lu5j5blhmqldtjgai9rvk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
